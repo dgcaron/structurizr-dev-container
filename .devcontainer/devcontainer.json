@@ -1,0 +1,12 @@
+{
+    "name": "structurizr",
+    "dockerComposeFile": "./docker-compose.yml",
+    "service": "vscode",
+    "extensions": ["ciarant.vscode-structurizr", "esbenp.prettier-vscode"],
+    "settings": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "workspaceFolder": "/workspace",
+    "shutdownAction": "stopCompose"
+  }
